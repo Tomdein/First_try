@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/First_try.iml" filepath="$PROJECT_DIR$/First_try.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/First_try_api.iml" filepath="$PROJECT_DIR$/.idea/modules/First_try_api.iml" group="First_try" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/First_try_main.iml" filepath="$PROJECT_DIR$/.idea/modules/First_try_main.iml" group="First_try" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/First_try_test.iml" filepath="$PROJECT_DIR$/.idea/modules/First_try_test.iml" group="First_try" />
+    </modules>
+  </component>
+</project>
