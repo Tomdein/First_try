@@ -1,5 +1,11 @@
 package org.civilization.client;
 
+import net.minecraft.init.Blocks;
+import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.fml.common.event.FMLInitializationEvent;
+import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
+import org.apache.logging.log4j.Logger;
+
 @Mod(modid = Civilization.MODID, name = Civilization.NAME, version = Civilization.VERSION)
 public class Civilization
 {
@@ -9,13 +15,13 @@ public class Civilization
 
     private static Logger logger;
 
-    @EventHandler
+    @Mod.EventHandler
     public void preInit(FMLPreInitializationEvent event)
     {
         logger = event.getModLog();
     }
 
-    @EventHandler
+    @Mod.EventHandler
     public void init(FMLInitializationEvent event)
     {
         // some example code
