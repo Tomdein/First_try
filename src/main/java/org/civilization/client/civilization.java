@@ -22,4 +22,3 @@ public class Civilization
         logger.info("DIRT BLOCK >> {}", Blocks.DIRT.getRegistryName());
     }
 }
-dshakjsajklfhjksfhasfjlkahfjkdshkjfadsjfsjkdha
