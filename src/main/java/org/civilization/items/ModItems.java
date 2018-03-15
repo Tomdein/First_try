@@ -1,4 +1,4 @@
-package org.civilization.items;
+/*package org.civilization.items;
 
 import net.minecraft.item.Item;
 import net.minecraftforge.fml.common.registry.GameRegistry;
@@ -22,3 +22,4 @@ public class ModItems {
 
     }
 }
+*/

@@ -1,4 +1,4 @@
-package org.civilization.items;
+/*package org.civilization.items;
 
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
@@ -22,4 +22,4 @@ public class BaseItem extends Item{
         super.setCreativeTab(tab);
         return this;
     }
-}
+}*/

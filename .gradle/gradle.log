@@ -1,32 +1,127 @@
 This mapping 'snapshot_20171003' was designed for MC 1.12! Use at your own peril.This mapping 'snapshot_20171003' was designed for MC 1.12! Use at your own peril.
 
+#################################################
+         ForgeGradle 2.3-SNAPSHOT-e7c1878        
+  https://github.com/MinecraftForge/ForgeGradle  
+#################################################
+               Powered by MCP unknown               
+             http://modcoderpack.com             
+         by: Searge, ProfMobius, Fesh0r,         
+         R4wk, ZeuX, IngisKahn, bspkrs           
+#################################################
 :deobfCompileDummyTask
 :deobfProvidedDummyTask
 :sourceApiJava UP-TO-DATE
 :compileApiJava UP-TO-DATE
 :processApiResources UP-TO-DATE
 :apiClasses UP-TO-DATE
-:sourceMainJava
-:compileJavaC:\Users\deing\Desktop\Development\Minecraft\First_try\build\sources\main\java\org\civilization\items\ModItems.java:15: error: <K>register(K) has private access in GameRegistry
-        GameRegistry.register(item);
-                    ^
-  where K is a type-variable:
-    K extends IForgeRegistryEntry<K> declared in method <K>register(K)
-C:\Users\deing\Desktop\Development\Minecraft\First_try\build\sources\main\java\org\civilization\proxy\ClientProxy.java:11: error: method does not override or implement a method from a supertype
-    @Override
-    ^
-2 errors
- FAILED
+:sourceMainJava UP-TO-DATE
+:compileJava
+:processResources UP-TO-DATE
+:classes
+:jar
+:getVersionJson
+:extractNatives SKIPPED
+:extractUserdev UP-TO-DATE
+:getAssetIndex UP-TO-DATE
+:getAssets
+Current status: 744/1283   57%
+:makeStart
+:runClient
+2018-03-15 15:05:50,196 main WARN Unable to instantiate org.fusesource.jansi.WindowsAnsiOutputStream
+2018-03-15 15:05:50,200 main WARN Unable to instantiate org.fusesource.jansi.WindowsAnsiOutputStream
+[15:05:50] [main/INFO] [GradleStart]: Extra: []
+[15:05:50] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --assetsDir, C:/Users/deing/.gradle/caches/minecraft/assets, --assetIndex, 1.12, --accessToken{REDACTED}, --version, 1.12.2, --tweakClass, net.minecraftforge.fml.common.launcher.FMLTweaker, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
+[15:05:50] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[15:05:50] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[15:05:50] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
+[15:05:50] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
+[15:05:50] [main/INFO] [FML]: Forge Mod Loader version 14.23.2.2611 for Minecraft 1.12.2 loading
+[15:05:50] [main/INFO] [FML]: Java is OpenJDK 64-Bit Server VM, version 1.8.0_152-release, running on Windows 10:amd64:10.0, installed at C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2017.3.5\jre64
+[15:05:50] [main/INFO] [FML]: Managed to load a deobfuscated Minecraft name- we are in a deobfuscated environment. Skipping runtime deobfuscation
+[15:05:50] [main/INFO] [FML]: Ignoring missing certificate for coremod FMLCorePlugin (net.minecraftforge.fml.relauncher.FMLCorePlugin), we are in deobf and it's a forge core plugin
+[15:05:50] [main/INFO] [FML]: Ignoring missing certificate for coremod FMLForgePlugin (net.minecraftforge.classloading.FMLForgePlugin), we are in deobf and it's a forge core plugin
+[15:05:50] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.gradle.tweakers.CoremodTweaker
+[15:05:50] [main/INFO] [GradleStart]: Injecting location in coremod net.minecraftforge.fml.relauncher.FMLCorePlugin
+[15:05:50] [main/INFO] [GradleStart]: Injecting location in coremod net.minecraftforge.classloading.FMLForgePlugin
+[15:05:50] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[15:05:50] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[15:05:50] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
+[15:05:50] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[15:05:50] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[15:05:50] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+2018-03-15 15:05:51,067 main WARN Unable to instantiate org.fusesource.jansi.WindowsAnsiOutputStream
+2018-03-15 15:05:51,376 main WARN Unable to instantiate org.fusesource.jansi.WindowsAnsiOutputStream
+2018-03-15 15:05:51,382 main WARN Unable to instantiate org.fusesource.jansi.WindowsAnsiOutputStream
+[15:05:52] [main/ERROR] [FML]: FML appears to be missing any signature data. This is not a good thing
+[15:05:52] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[15:05:52] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[15:05:52] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
+[15:05:52] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
+[15:05:52] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
+[15:05:52] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.client.main.Main}
+[15:05:53] [main/INFO]: Setting user: Player343
+[15:05:58] [main/INFO]: LWJGL Version: 2.9.4
+[15:06:00] [main/INFO] [FML]: -- System Details --
+Details:
+	Minecraft Version: 1.12.2
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 1.8.0_152-release, JetBrains s.r.o
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode), JetBrains s.r.o
+	Memory: 401473632 bytes (382 MB) / 696778752 bytes (664 MB) up to 1901592576 bytes (1813 MB)
+	JVM Flags: 0 total; 
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: 
+	Loaded coremods (and transformers): 
+	GL info: ' Vendor: 'ATI Technologies Inc.' Version: '4.5.13497 Compatibility Profile Context 23.20.793.1024' Renderer: 'AMD Radeon R9 200 Series'
+[15:06:00] [main/INFO] [FML]: MinecraftForge v14.23.2.2611 Initialized
+[15:06:00] [main/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
+[15:06:00] [main/INFO] [FML]: Replaced 1036 ore ingredients
+[15:06:01] [main/INFO] [FML]: Found 0 mods from the command line. Injecting into mod discoverer
+[15:06:01] [main/INFO] [FML]: Searching C:\Users\deing\Desktop\Development\Minecraft\First_try\run\mods for mods
+[15:06:03] [Thread-3/INFO] [FML]: Using sync timing. 200 frames of Display.update took 233510336 nanos
+[15:06:03] [main/INFO] [FML]: Forge Mod Loader has identified 5 mods to load
+[15:06:04] [main/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, civilization] at CLIENT
+[15:06:04] [main/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, civilization] at SERVER
+[15:06:05] [main/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Civilization Mod
+[15:06:05] [main/INFO] [FML]: Processing ObjectHolder annotations
+[15:06:05] [main/INFO] [FML]: Found 1168 ObjectHolder annotations
+[15:06:05] [main/INFO] [FML]: Identifying ItemStackHolder annotations
+[15:06:05] [main/INFO] [FML]: Found 0 ItemStackHolder annotations
+[15:06:05] [main/INFO] [FML]: Configured a dormant chunk cache size of 0
+[15:06:05] [Forge Version Check/INFO] [ForgeVersionCheck]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[15:06:05] [main/INFO] [STDOUT]: [org.civilization.client.Civilization:preInit:35]: civilization is preLoad
+[15:06:05] [main/INFO] [FML]: Applying holder lookups
+[15:06:05] [main/INFO] [FML]: Holder lookups applied
+[15:06:05] [main/INFO] [FML]: Applying holder lookups
+[15:06:05] [main/INFO] [FML]: Holder lookups applied
+[15:06:05] [main/INFO] [FML]: Applying holder lookups
+[15:06:05] [main/INFO] [FML]: Holder lookups applied
+[15:06:05] [main/INFO] [FML]: Applying holder lookups
+[15:06:05] [main/INFO] [FML]: Holder lookups applied
+[15:06:05] [main/INFO] [FML]: Injecting itemstacks
+[15:06:05] [main/INFO] [FML]: Itemstack injection complete
+[15:06:06] [Forge Version Check/INFO] [ForgeVersionCheck]: [forge] Found status: UP_TO_DATE Target: null
+[15:06:10] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[15:06:10] [Thread-5/INFO]: Initializing LWJGL OpenAL
+[15:06:10] [Thread-5/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[15:06:10] [Thread-5/INFO]: OpenAL initialized.
+[15:06:10] [Sound Library Loader/INFO]: Sound engine started
+[15:06:17] [main/INFO] [FML]: Max texture size: 16384
+[15:06:18] [main/INFO]: Created: 512x512 textures-atlas
+[15:06:20] [main/INFO] [FML]: Applying holder lookups
+[15:06:20] [main/INFO] [FML]: Holder lookups applied
+[15:06:20] [main/INFO] [STDOUT]: [org.civilization.client.Civilization:Init:42]: civilization is Loading
+[15:06:20] [main/INFO] [FML]: Injecting itemstacks
+[15:06:20] [main/INFO] [FML]: Itemstack injection complete
+[15:06:20] [main/INFO] [STDOUT]: [org.civilization.client.Civilization:postInit:49]: civilization is postLoad
+[15:06:20] [main/INFO] [FML]: Forge Mod Loader has successfully loaded 5 mods
+[15:06:20] [main/INFO]: Narrator library for x64 successfully loaded
+[15:06:21] [Realms Notification Availability checker #1/INFO]: Could not authorize you against Realms server: Invalid session id
+[15:06:40] [main/INFO]: Stopping!
+[15:06:40] [main/INFO]: SoundSystem shutting down...
+[15:06:40] [main/WARN]: Author: Paul Lamb, www.paulscode.com
 
-FAILURE: Build failed with an exception.
+BUILD SUCCESSFUL
 
-* What went wrong:
-Execution failed for task ':compileJava'.
-> Compilation failed; see the compiler error output for details.
-
-* Try:
-Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output.
-
-BUILD FAILED
-
-Total time: 2.208 secs
+Total time: 1 mins 17.96 secs
